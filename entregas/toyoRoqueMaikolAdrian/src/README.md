@@ -15,3 +15,7 @@ En la vista publica del objeto no agregué ejecuciones en consola y me faltaron 
 He cometido un error al pasarle el argumento "Activo" al constructor de la clase Plaza, cuando las variantes son "Disponible" u "Ocupado", para probar el metodo correctamente le pasaré una de estas dos variantes.
 
 Me han faltado metodos que agregar a la vista publica de aparcamiento como registrarSalida, para registrar la salida de un vehiulo de una plaza determinada, de la misma forma en el caso del metodo registrarEntrada lo ideal hubiera sido pasarle el número de plaza como parámetro y no la plaza en sí, pues en un aparcamiento pueden haber más de una plaza de cada tipo por lo que es necesario saber que lugar ocupa esta plaza en el array para diferenciarla de las demás.
+
+## Conclusiones
+
+Al implementar la vista privada de las clases me he dado cuenta de ciertos errores que he cometido al crear las vistas públicas de las clases, me han faltado crear métodos en la clase aparcamiento como registrarSalida. Gracias a esto he podido comprender la importancia de establecer correctamente desde un principio las vistas públicas y las clases a utilizar.
